@@ -150,7 +150,95 @@ cmd 命令一般是不支持选中复制啥的
 你放弃吧
 现在开始进入正题 要准备传送文件了
 
+我们就把这个聊天的记事本上传到git 上面
+
+我们刚才在git 上面建了一个仓库 叫firstgittest
+ 建好之后他一般都会有教你使用的命令
+git init
+git add qq.txt
+
+git commit -m "first commit"
+git remote add origin https://github.com/11111000006/firstgittest.git
+git push -u origin master
+
+我们进入到那个盘 ，后建，git bash here
+
+在本地初始化
+
+git init 会初始化一个文件 .git 这个文件
+
+然后add 表示添加一个东西，只指向你的文件
+
+git commit -m "这是你提交的备注内容说明"
+
+git remote add origin 指向你远程地址， 一般第一次设置就行
+git push -u origin master  master 表示你的分支名称 branch 
+
+git branch -a 可以查看到你所有分支名称 ，现在只有2 个
+
+我们在创建一个分支
+
+用命令方式和在网上创建 都是一个意思
 
 
+刚才我们在网上创建了一个叫dev 的分支
+使用git branch -a 还是显示2个
+它没更新过来
 
- 
+用git pull 命令拉去下来
+在执行一遍就有了然后干嘛
+你试试，在网上见一个分支，然后然后拉取，在显示分支
+
+master 这个分支有2个文件，但是其他分支只有1个文
+然后在这查找吗
+
+不同分支里面的东西是不一样的
+这是版本管理
+
+接下来干嘛
+你可以修改你的文件，然后在提交
+
+现在你把2.html 提交到master 分支上面去
+
+开始啊
+
+它里面有比较的东西，知道你上次提交和这次提交变动了什么
+每次修改的东西他都知道
+非常棒
+
+ 文件双引号
+你已经添加了
+那现在还要干嘛 add
+是添加，做完你问我吗？
+commit
+有啥区别
+
+
+我们在建立一个1.txt 2.txt 1文件提交到dev 2 文件提交到wcao
+
+ 在这个看？
+ a的分支？
+wcao 分支，我们现在在吧这个内容提交到我曹分支上
+
+我现在来修改 titile 里面的内容 吧在线订购改成首页
+
+你把2.html 在提交一下
+git add "2.html"
+git commit -m "hello word"
+git push 
+开始
+complete 表示完成了一个本地对象 local object
+在到网页上看
+
+红色背景表示删除
+绿色背景表示新增的内容
+
+你感觉对你有没帮助？
+刚入门
+你还可以找回你历史的东西
+怎么找
+这个你自己去网上找命令
+以后你的东西都上传到git上面
+我好帮你看看
+自己去琢磨吧 git 是程序开发的必备的版本管理工具
+
